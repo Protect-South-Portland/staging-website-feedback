@@ -1,0 +1,32 @@
+name: Website feedback
+description: Tell us what you expected and what you saw on the Protect South Portland website.
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thanks for telling us about the website. Screenshots are welcome —
+        drag them straight into any box below.
+  - type: textarea
+    id: pages
+    attributes:
+      label: Page(s) you were looking at
+      description: Which page or pages? Paste URLs or page names.
+      placeholder: "e.g. https://staging.protectsouthportland.org/act-now.html, or 'the Act now page'"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: What did you think would happen, or what were you looking for?
+      placeholder: "I expected..."
+    validations:
+      required: true
+  - type: textarea
+    id: saw
+    attributes:
+      label: What you saw
+      description: What happened instead? Anything you tried first is useful too.
+      placeholder: "Instead..."
+    validations:
+      required: true
